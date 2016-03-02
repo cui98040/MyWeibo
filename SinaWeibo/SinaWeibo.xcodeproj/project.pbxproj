@@ -12,11 +12,11 @@
 		D83286F31C7CB4BB003B71F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D83286F11C7CB4BB003B71F5 /* LaunchScreen.storyboard */; };
 		D83286FE1C7CB4BB003B71F5 /* SinaWeiboTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83286FD1C7CB4BB003B71F5 /* SinaWeiboTests.swift */; };
 		D83287091C7CB4BB003B71F5 /* SinaWeiboUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83287081C7CB4BB003B71F5 /* SinaWeiboUITests.swift */; };
-		D85B3D391C82E847005843A1 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D85B3D381C82E847005843A1 /* MainViewController.swift */; };
 		D85B3D3B1C82E888005843A1 /* HomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D85B3D3A1C82E888005843A1 /* HomeTableViewController.swift */; };
 		D85B3D3D1C82E89A005843A1 /* MessageTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D85B3D3C1C82E89A005843A1 /* MessageTableViewController.swift */; };
 		D85B3D3F1C82E8AB005843A1 /* DiscoverTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D85B3D3E1C82E8AB005843A1 /* DiscoverTableViewController.swift */; };
 		D85B3D411C82E8CA005843A1 /* ProfileTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D85B3D401C82E8CA005843A1 /* ProfileTableViewController.swift */; };
+		D89187001C8471AB0091400B /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89186FF1C8471AB0091400B /* MainViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,11 +48,11 @@
 		D83287041C7CB4BB003B71F5 /* SinaWeiboUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SinaWeiboUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D83287081C7CB4BB003B71F5 /* SinaWeiboUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SinaWeiboUITests.swift; sourceTree = "<group>"; };
 		D832870A1C7CB4BB003B71F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D85B3D381C82E847005843A1 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		D85B3D3A1C82E888005843A1 /* HomeTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeTableViewController.swift; sourceTree = "<group>"; };
 		D85B3D3C1C82E89A005843A1 /* MessageTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageTableViewController.swift; sourceTree = "<group>"; };
 		D85B3D3E1C82E8AB005843A1 /* DiscoverTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiscoverTableViewController.swift; sourceTree = "<group>"; };
 		D85B3D401C82E8CA005843A1 /* ProfileTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileTableViewController.swift; sourceTree = "<group>"; };
+		D89186FF1C8471AB0091400B /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -179,7 +179,7 @@
 		D85B3D2B1C82DEC7005843A1 /* Main */ = {
 			isa = PBXGroup;
 			children = (
-				D85B3D381C82E847005843A1 /* MainViewController.swift */,
+				D89186FF1C8471AB0091400B /* MainViewController.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -350,9 +350,9 @@
 				D85B3D411C82E8CA005843A1 /* ProfileTableViewController.swift in Sources */,
 				D85B3D3B1C82E888005843A1 /* HomeTableViewController.swift in Sources */,
 				D83286E91C7CB4BB003B71F5 /* AppDelegate.swift in Sources */,
+				D89187001C8471AB0091400B /* MainViewController.swift in Sources */,
 				D85B3D3D1C82E89A005843A1 /* MessageTableViewController.swift in Sources */,
 				D85B3D3F1C82E8AB005843A1 /* DiscoverTableViewController.swift in Sources */,
-				D85B3D391C82E847005843A1 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
